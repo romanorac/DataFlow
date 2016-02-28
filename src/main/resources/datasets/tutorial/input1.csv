@@ -1,0 +1,36 @@
+#first row contains user’s unique identification number (userID) and a timestamp when did the user open the app for the first time, in the first and second column respectively 
+#second row contains userID and a timestamp when did the user click on the tutorial button, in the first and second column respectively In the case the user did not decide to watch the tutorial there is only one entry (the first one) for such user in the dataset.
+#userId;timestamp
+
+#normal user
+1000001;1454077665000 
+1000001;1454077765000
+
+#normal user
+1000002;1454087665000
+1000002;1454097665000
+
+
+
+#did not finish tutorial
+1000003;1454697665000
+
+#did not finish tutorial
+1000004;1454637665000
+
+
+
+#end time is before start time. Our algorithm does not cover corrupt data.
+#1000005;1454077665000
+#1000005;1444077765000
+
+#normal user
+1000006;1454088665000
+1000006;1454098665000
+
+#normal user
+1000007;1454089665000
+1000007;1454099665000
+
+#normal user - first part
+1000010;1454097966000

@@ -1,0 +1,12 @@
+t.test(c(50.0, 90.0, 65.0, 75.0), c(50.0, 70.0, 80.0, 80.0, 60.0, 70.0, 60.0), paired=FALSE)
+
+	Welch Two Sample t-test
+
+data:  c(50, 90, 65, 75) and c(50, 70, 80, 80, 60, 70, 60)
+t = 0.30368, df = 4.5436, p-value = 0.7748
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -22.07754  27.79183
+sample estimates:
+mean of x mean of y
+ 70.00000  67.14286
